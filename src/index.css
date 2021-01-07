@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1{
+  color: black;
+}
+
+button.inc{
+  padding: 12px 20px;
+  background: #9b59b6;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.inc1{
+  padding: 12px 20px;
+  background: #d8afe9;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
